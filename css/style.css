@@ -1,0 +1,72 @@
+h1 {
+	font-family: "Arial";
+	margin-left: 30px;
+	margin-top: 20px;
+}
+h2, h3, h4 {
+	font-family: "Arial";
+}
+
+article h2, article h3, article h4, article h5, article h6{
+	margin-left: 30px;
+}
+
+hr {margin-left: 30px;}
+pre{
+	font-size: 16px;
+	font-family: "Arial";
+	margin-left: 30px;
+	word-wrap: break-word;
+}
+p {font-family: "Arial"; margin-left: 30px;}
+li {font-family: "Arial"; margin-left: 30px;}
+dd {font-family: "Arial";}
+dt {font-family: "Arial";}
+a {font-family: "Arial";}
+
+img{
+	width: 85%;
+	height: auto;
+}
+.imgDiv{
+	display: none;
+}
+
+button {margin-left: 30px;}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  /*transition: 0.3s;*/
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+video{
+	width: 75%;
+	height: auto;
+}
